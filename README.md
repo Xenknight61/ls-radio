@@ -3,9 +3,9 @@
 - /rconnect (channel) the radio is connected
 - /rleave   leaves the radio
 
-Don't forget to add the radio as item
-Volume down setting for tokovoip users
-tokovoip_script/src/c_main.lua - add the code below
+- Don't forget to add the radio as item
+- Volume down setting for tokovoip users
+- tokovoip_script/src/c_main.lua - add the code below
 
 ```
 function setVolumeDown()
