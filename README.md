@@ -7,7 +7,7 @@ Don't forget to add the radio as item
 Volume down setting for tokovoip users
 tokovoip_script/src/c_main.lua - add the code below
 
-
+```
 function setVolumeDown()
     if radioVolume <= -20 then
         radioVolume = -20
@@ -33,3 +33,4 @@ end
 RegisterNetEvent("TokoVoip:UpVolume");
 AddEventHandler("TokoVoip:UpVolume", setVolumeUp);
 exports("setRadioVolumeUp", setVolumeUp);
+```
