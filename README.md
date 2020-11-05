@@ -34,3 +34,4 @@ RegisterNetEvent("TokoVoip:UpVolume");
 AddEventHandler("TokoVoip:UpVolume", setVolumeUp);
 exports("setRadioVolumeUp", setVolumeUp);
 ```
+<img src="https://cdn.discordapp.com/attachments/745323928922095678/773941430116679700/unknown.png"/>
