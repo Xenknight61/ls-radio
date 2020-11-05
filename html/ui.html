@@ -1,0 +1,44 @@
+<!doctype HTML>
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Radio LS-Story.pl</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <body>
+        <img id="cursor" src="img/cursor.png">
+        <div id="radio">
+            <img src="./img/radio.png" alt="">
+
+          
+                <button data-toggle="tooltip" title="Frekansdan Ayrıl" id="onoff" type="submit" name="onoff"></button>
+          
+            <div class="ses-menu">
+            
+                <div><button data-toggle="tooltip" title="Sesi Kıs" id="kis" type="submit" name="kis"></button></div>
+                <div><button data-toggle="tooltip" title="Sesi Aç" id="ac" type="submit" name="ac"></button></div>
+            </div> 
+    
+            <div class="ana-ekran">
+                <div class="üst-yazi">MENU</div>
+
+                <div class="orta-yazi">RADYO FREKANSI</div>
+
+                <div class="channel">
+                    <form id="login-form">
+                        <input id="channel" onKeyUp="if(this.value<1){this.value='1';}" type="number" name="channel" value="channel" min="1" max="1000" placeholder="1-1000">
+                        <button id="submit" type="submit" name="channel">BAGLAN</button>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </div>
+        <script src="js/script.js" type="text/javascript"></script>
+        
+    </body>
+</html>
